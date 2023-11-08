@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+body{
+    background: linear-gradient(45deg, green, rgb(18, 136, 18), yellowgreen,greenyellow);
+    color: black;
+    font-family: 'Inter', sans-serif;
+   
+}
+
+#qd{  
+    padding: 16px;
+    border: 3px black ridge;
+    width: fit-content;
+}
+
+#show_sketch{
+    
+    display: inline-block;
+outline: 0;
+border: 0;
+cursor: pointer;
+background: #000000;
+color: #FFFFFF;
+border-radius: 8px;
+padding: 14px 24px 16px;
+font-size: 18px;
+font-weight: 700;
+line-height: 1;
+transition: transform 200ms,background 200ms;
+
+}
+
+#show_sketch:hover{
+    transform: translateY(-2px);
+}
+
+#score{
+    font-size: 20px;
+    margin-right: 600px;
+}
+
+#time{
+    font-size: 20px;
+    margin-left: 600px;
+}
